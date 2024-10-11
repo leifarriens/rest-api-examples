@@ -1,0 +1,13 @@
+{
+  "name": "node-std",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}

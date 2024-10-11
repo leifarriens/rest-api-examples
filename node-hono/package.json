@@ -1,0 +1,17 @@
+{
+  "name": "node-hono",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.2",
+    "hono": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
